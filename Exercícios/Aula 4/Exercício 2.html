@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form>
+    <label for="input_nome"><strong>Nome do produto:</strong></label><br>
+    <input id="input_nome" type="text" placeholder="nome" required>
+
+    <br><br>
+
+    <label for="input_fabricacao"><strong>Data de fabricação:</strong></label><br>
+    <input id="input_fabricacao" type="date" placeholder="nome" required>
+
+    <br><br>
+
+    <label for="input_preco"><strong>Preço:</strong></label><br>
+    <input id="input_preco" type="number" required>
+
+    <br><br>
+    <label><strong>Categoria:</strong></label><br>
+
+    <label for="radio_e">Eletrônicos</label>
+    <input id="radio_e" type="radio" value="Eletrônicos" name="Categoria" required>
+    <br>
+    <label for="radio_l">Livros</label>
+    <input id="radio_l" type="radio" value="Livros" name="Categoria" required>
+    <br>
+    <label for="radio_b">Brinquedos</label>
+    <input id="radio_b" type="radio" value="Brinquedos" name="Categoria" required>
+    <br>
+    <label for="radio_es">Esportes</label>
+    <input id="radio_es" type="radio" value="Esportes" name="Categoria" required>
+    <br>
+    <label for="radio_c">Calçados</label>
+    <input id="radio_c" type="radio" value="Calçados" name="Categoria" required>
+
+
+    <br><br>
+
+    <label for="menu_pais"><strong>País:</strong></label>
+    <select id="menu_pais" required>
+            <option>Estados Unidos</option>
+            <option>França</option>
+            <option>Brasil</option>
+            <option>Espanha</option>
+            <option>China</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+</body>
+</html>
